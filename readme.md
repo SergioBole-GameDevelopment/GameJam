@@ -1,59 +1,65 @@
+# Título: The Midnight I Tell You - Secrets
+## Projeto em desenvolvimento para [Game Off 2024](https://itch.io/jam/game-off-2024) 
+# Objetivo do Jogo: 
+`Em The Midnight I Tell You - Secrets, o objetivo é resolver os mistérios que cercam dois mundos: o mundo real e o mundo das sombras. O jogador deve coletar moedas para acumular pontos e encontrar chaves espalhadas por ambos os mundos para avançar nas fases. Ao entrar no mundo das sombras, o cenário se transforma, revelando novas passagens, objetos e plataformas, e permitindo o teletransporte do jogador para outros pontos do mapa. A alternância entre os mundos pode liberar passagens no mundo normal ao retornar.`
 # The Midnight I Tell You - Secrets
 
-## Sugestões de Nomes
-- The Midnight I Tell You - Secrets
+## História
 
-## Roadmap
-## Desenvolvedores
-``Sergio Barros - C#/Unity Developer`` [GitHub](www.google.com)
+**The Midnight I Tell You - Secrets** é um jogo que se passa em um mundo futurista dominado por monstros das sombras. O jogador alterna entre dois cenários distintos: o mundo normal e o mundo das sombras. A cada troca de dimensão, novos locais, objetos e plataformas são revelados, oferecendo uma experiência rica e dinâmica enquanto o jogador resolve mistérios e coleciona chaves para avançar.
 
+## Roadmap de Desenvolvimento
 
-### 2D
+### Em Desenvolvimento
+- [ ] Movimento do personagem (horizontalmente)
+- [ ] Interação com objetos e NPCs
+- [ ] Criação de mapas básicos (mundo normal) e ambientes sombrios (mundo das sombras)
 
-#### Fase 1: Planejamento e Configuração
-- [ ] **Definir Conceito do Jogo**
-- [ ] **Configurar Repositório no GitHub**
-- [ ] **Configurar Projeto na Unity**
+### A Iniciar
+- [ ] Implementação de puzzles complexos
+- [ ] Sistema de inventário
+- [ ] Diálogos interativos
+- [ ] Mecânica de troca de dimensão (mundo normal e mundo das sombras)
+- [ ] Mecânica de ataque (atirar nos inimigos)
 
-#### Fase 2: Desenvolvimento Básico
-- [ ] **Desenvolver Mecânicas Básicas**
-  - [ ] Movimento do personagem
-  - [ ] Interação com objetos
-- [ ] **Design de Níveis**
-  - [ ] Criação de mapas básicos
-  - [ ] Posicionamento de itens secretos
+### Finalizado
+- [x] Configuração inicial do projeto na Unity
+- [x] Definição do conceito do jogo
+- [x] Criação de repositório no GitHub
 
-#### Fase 3: Implementação de Mecânicas Avançadas
-- [ ] **Adicionar Puzzles**
-- [ ] **Sistemas de Inventário**
-- [ ] **Diálogos e Histórias**
+## Mecânicas do Jogo
 
-#### Fase 4: Polimento e Testes
-- [ ] **Testes de Jogabilidade**
-- [ ] **Ajustes Finais**
-- [ ] **Preparação para Publicação na Itch.io**
+### Mecânicas Gerais
+- Andar (horizontalmente)
+- Pular
+- Troca de dimensão
+- Atirar
 
-### 3D
+### Mecânicas do Jogador
+1. **Andar:** Movimentação horizontal pressionando as teclas **A** ou **D** / Setas esquerda ou direita
+2. **Pular:** Saltar para alcançar outras plataformas ou subir em obstáculos mais altos
+3. **Troca de Dimensão:** Pressionando a tecla **X** para mudar para o mundo das sombras
+4. **Atirar:** Pressionando a tecla **X** para disparar contra os inimigos à frente
 
-#### Fase 1: Planejamento e Configuração
-- [ ] **Definir Conceito do Jogo**
-- [ ] **Configurar Repositório no GitHub**
-- [ ] **Configurar Projeto na Unity**
+## Ambientação
 
-#### Fase 2: Desenvolvimento Básico
-- [ ] **Desenvolver Mecânicas Básicas**
-  - [ ] Movimento do personagem
-  - [ ] Interação com objetos
-- [ ] **Design de Níveis**
-  - [ ] Criação de ambientes 3D
-  - [ ] Posicionamento de itens secretos
+O jogo se passa em um mundo futurista dominado por monstros das sombras, alternando entre dois cenários:
+- **Cenário 01 - Padrão (Mundo Normal)**
+- **Cenário 02 - Sombras (Mundo das Sombras)**
 
-#### Fase 3: Implementação de Mecânicas Avançadas
-- [ ] **Adicionar Puzzles**
-- [ ] **Sistemas de Inventário**
-- [ ] **Diálogos e Histórias**
+## Desenvolvedor/Programador
+- **Sergio Barros - C#/Unity Developer** [GitHub](www.google.com)
 
-#### Fase 4: Polimento e Testes
-- [ ] **Testes de Jogabilidade**
-- [ ] **Ajustes Finais**
-- [ ] **Preparação para Publicação na Itch.io**
+## Engine e Modelo
+- **Engine:** Unity
+- **Modelo:** 2D
+
+## Plataforma Foco
+- **Plataformas:** PC (Windows)
+
+## Links
+- [Repositório no GitHub](https://github.com/usuario/the-midnight-i-tell-you-secrets)
+- [Página do Projeto na Itch.io](https://itch.io/jam/the-midnight-i-tell-you-secrets)
+- [Servidor no Discord](https://discord.gg/link-servidor)
+- [LiveStream - Twitch.tv](https://discord.gg/link-servidor)
+
