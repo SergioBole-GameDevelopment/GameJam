@@ -1,9 +1,11 @@
 using System;
 using UnityEngine;
 
+
 public class PlayerMove : MonoBehaviour
 {
     SpriteRenderer Sprite;
+    Sprite _Color;
     [SerializeField] Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,6 +33,7 @@ public class PlayerMove : MonoBehaviour
         {
             Sprite.flipX = false;
             anim.SetFloat("Walk", 0.01f);
+           
         }
         else if (x < -0f)
         {
