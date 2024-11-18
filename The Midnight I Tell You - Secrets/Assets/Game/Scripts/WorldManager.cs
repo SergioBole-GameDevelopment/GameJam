@@ -17,18 +17,26 @@ public class WorldManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        changeWorld();
     }
 
     public void changeWorld()
     {
         if (World.Contains(World[0]))
         {
-
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                World[0].SetActive(false);
+                World[1].SetActive(true);
+            }
 
         }else if (World.Contains(World[1]))
         {
-
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                World[0].SetActive(true);
+                World[1].SetActive(false);
+            }
         }
     }
 
